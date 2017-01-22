@@ -1,5 +1,15 @@
 # pycharm projects config
 .idea
+*/.idea
+*/*/.idea
 __pycache__
+*/__pycache__
+*/*/__pycache__
+
+# html config
 *.html
+*/*.html
+*/*/*.html
 *.htm
+*/*.htm
+*/*/*.htm
