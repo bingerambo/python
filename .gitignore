@@ -1,3 +1,4 @@
 # pycharm projects config
 .idea
 __pycache__
+*.html
