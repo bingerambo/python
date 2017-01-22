@@ -1,6 +1,6 @@
 # python
 
-* 初学ppython的demo代码
+* 初学python的demo代码
 * 一些小工具
 
 ## Mydemo
