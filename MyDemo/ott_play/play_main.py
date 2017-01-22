@@ -64,7 +64,7 @@ getTvn_data = dict(
     # attribute='json_get_userinfo',
     csi='12001047',
     stamp=0,
-    tgt='TGT-596341553-m7GSvyQraa6Bv0Wi92fvRA7Y1fusozbSFr0fHi9AQ0pgBnTudo-cas'
+    tgt='TGT-566225753-YYoRcifKCkLljncB6LHbtY2PGIDYf4oprRV7NXbv4AGvzCeqIS-cas'
 )
 # 获取用户归属区域码和TVN
 getGeoTvn_data = dict(
@@ -110,7 +110,7 @@ def chunk_header_print(str_name):
 class Main():
     def __init__(self, data):
         from ott_play import play_params
-        self.play_params = play_params.GetReqParams(data)
+        self.play_params = play_params.PlayParams(data)
         from ott_play import request_emitter
         self.request = request_emitter.RequestEmitter()
 

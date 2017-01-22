@@ -17,6 +17,11 @@ def fun_browser():
     browser = Browser('firefox')
     browser.visit('http://www.baidu.com')
 
+    # fill 的标识应为 name属性
+    browser.fill('wd', '天气')
+    button = browser.find_by_id('su')
+    button.click()
+
 def test_driver():
     from selenium import webdriver
     import time
