@@ -50,8 +50,8 @@ class Turtule():
 # 乌龟子类
 class XiaoGui(Turtule):
     def __init__(self):
-        # super().__init__()
-        super(XiaoGui, self).__init__()
+        super().__init__()
+        # super(XiaoGui, self).__init__()
         print("XiaoGui init")
 
 

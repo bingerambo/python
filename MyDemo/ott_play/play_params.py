@@ -19,11 +19,20 @@ from datetime import datetime
 #     productId='PT20150306155806815',
 #     assetId='VODC1608241254085401',
 #     tgt='TGT-563424232-DLaIBm3l24YFhwSrS2NztzOqbnf4VJnI5kMtusuhaRKqMshkZM-cas',
-#     startPoint='0'
+#
 #
 # )
 
-class PlayParams(object):
+# # 双向认证接口
+# params = dict(
+#     rq_url="http://172.30.93.225:8080/spgw",
+#     attribute='json_gettvn',
+#     csi='12001047',
+#     stamp=0,
+#     tgt="TGT-15900-1Rcni2IIK1SmFPDHV7wmyhGnw70se3C9wfJs6LcD3HvNdJLGAL-cas"
+# )
+
+class GetReqParams(object):
     def __init__(self, data):
         self.request_data = data
 

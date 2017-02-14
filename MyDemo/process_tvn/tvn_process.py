@@ -39,7 +39,7 @@ def process_content(content):
     return ",".join(content)
 
 
-def process_file(src_file_name="./TVN/中州路7#街坊-TVN号-1229.txt", dest_file_name="./TVN/中州路7#街坊-TVN号-1229-data.txt"):
+def process_file(src_file_name="tvn.txt", dest_file_name="tvn-data.txt"):
     """ 整理文件操作
         src_file_name：str 源文件
         dest_file_name：str 目标文件
